@@ -1,0 +1,89 @@
+body{
+  background-image: url(http://gdj.graphicdesignjunction.com/wp-content/uploads/2012/05/pattern-texture-design-25.jpg);
+  font-family: "Segoe UI";
+  color: white;
+  align-self: center;
+}
+
+h1{
+  font-family: "Segoe UI Light";
+}
+
+.tapes, h2{
+  background-color: black;
+  opacity: 0.5;
+  font-family: "Segoe UI",Arial,sans-serif;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2 + p{
+  margin: 40px;
+  padding-right: 15%;
+}
+
+a > img{
+  background-color: darkgray;
+  /* opacity: 1; */
+}
+
+.centered{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+img.profilePictures{
+  width: auto;
+  max-width: 20%;
+}
+
+footer{
+  background-color: black;
+  opacity: .50;
+
+}
+
+table{
+  margin: auto;
+}
+
+td > img{
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+a{
+  font-family: "Segoe UI";
+  font-size: 300%;
+  color: white;
+}
+
+iframe{
+  width: 80%;
+  background-color: white;
+  opacity: 0.8;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#email{
+  font-size: 200%
+}
+
+img#mainProject{
+  background-color: white;
+}
+
+img#projectImage{
+  width: 20%;
+  background-color: white;
+  opacity: .8;
+}
+
+a[href ^= "mail"]{
+  color: red;
+}
